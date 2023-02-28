@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkpoint DOM</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?&family=Quicksand&family=Climate+Crisis&family=Mynerve&family= Slabo + 27px&family= Inter&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9cee12133d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="navbar d-flex justify-content-between">
+        <div class="flex-start"><a href="index.html"><span>SenShop</span></a></div>
+        <div class="flex-end d-flex">
+            <a class="item" href="index.html">Accueil</a>
+            <a class="item mx-4" href="#">Nouveautés</a>
+            <a class="item" href="#">Promotions</a>
+            <input type="search" class="form-control mx-4" placeholder="Rechercher">
+            <a href="cart.html" class="item"><i class="fas fa-cart-plus cartIcon active"></i></a>
+        </div>
+    </div>
+    <section class="productTable">
+        <div class="container">
+            <span class="cart">Panier</span>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Nom article</th>
+                        <th>Prix</th>
+                        <th>Quantité</th>
+                        <th>Total</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="article1">
+                        <td>Iphone 12 Mini</td>
+                        <td id="prixUnitaire">809</td>
+                        <td>
+                            <button class="quantity-button minus" id="buttonMoins">-</button>
+                            <span class="quantity" id="quantityArticle">1</span>
+                            <button class="quantity-button plus" id="buttonPlus">+</button>
+                        </td>
+                        <td id="prixTotal">
+                            809
+                        </td>
+                        <td>
+                            <button id="delete-button">
+                                &times;
+                            </button>
+                            <button id="heartIcon">
+                                &hearts;
+                            </button>
+                        </td>
+                    </tr>
+                    <tr id="article2">
+                        <td>Samsung Fold</td>
+                        <td id="prixUnitaire2">1234</td>
+                        <td>
+                            <button class="quantity-button minus" id="buttonMoins2">-</button>
+                            <span class="quantity" id="quantityArticle2">2</span>
+                            <button class="quantity-button plus" id="buttonPlus2">+</button>
+                        </td>
+                        <td id="prixTotal2">
+                            2468
+                        </td>
+                        <td>
+                            <button id="delete-button2">
+                                &times;
+                            </button>
+                            <button id="heartIcon2">
+                                &hearts;
+                            </button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <h4 class="totalPrice border border-dark-subtle">
+                Prix total : <span id="total"> </span>
+            </h4>
+        </div>
+    </section>
+    <script src="js/main.js"></script>
+</body>
+</html>

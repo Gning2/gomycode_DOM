@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family : 'Inter', sans-serif;
+}
+.navbar{
+    padding: 10px 35px 10px 35px;
+    margin: 0px 50px 0px 50px;
+    border-bottom: rgb(124, 121, 121);
+}
+.flex-start a span{
+    color: #AFE1AF;
+    font-family: 'Mynerve', cursive;
+    font-size: 30px;
+}
+.flex-start a{
+    text-decoration: none;
+}
+.item{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-weight: normal;
+    font-size: 15px;
+}
+.item:hover{
+    color: #AFE1AF;
+}
+.active{
+    color: #AFE1AF;
+}
+.cartIcon{
+    font-size: 15px;
+    margin-right: 10px;
+}
+.form-control:focus{
+    box-shadow: none;
+    border-color: rgb(124, 121, 121);
+}
+.intro{
+    margin-top:25px;
+}
+.accroche{
+    margin-top: 100px;
+}
+.catchPhrase{
+    color:#AFE1AF;
+    font-family: 'Climate Crisis', cursive;
+}
+.articles{
+    margin-top:50px;
+}
+.card img{
+    max-width: 50%;
+    max-height:100%;
+    margin: auto;
+}
+.quantity-button {
+    background-color: #f2f2f2;
+    border: none;
+    cursor: pointer;
+}
+.minus, .plus {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+}
+.minus:hover, .plus:hover {
+    background-color: #ddd;
+}
+.quantity {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+}
+#heartIcon, #delete-button{
+    background-color: #f2f2f2;
+    border: none;
+    cursor: pointer;
+}
+#heartIcon2, #delete-button2{
+    background-color: #f2f2f2;
+    border: none;
+    cursor: pointer;
+}
+.iconClick{
+    color: red;
+    border: none;
+    cursor: pointer;
+}
+.productTable{
+    margin-top: 25px;
+}
+.totalPrice{
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 20%;
+    padding: 10px;
+    border-radius: 5px;
+}
+#total{
+    margin-left:7%;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+}
+
+.cart{
+    font-size: 40px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+}
